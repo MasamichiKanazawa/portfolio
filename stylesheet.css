@@ -13,7 +13,6 @@ li  {
 
   .container {
       width: 100%;
-      padding: 0 15px; 
       margin: 0 auto;
   }
 
@@ -54,14 +53,15 @@ li  {
 
   .prof-icon {
     padding-top: 150px;
-    padding-left: 120px;
+    padding-left: 200px;
     float: left;
   }
   
-  .prof-wrapper p {
+  .prof-text p {
       float: right;
       width: 500px;
-      padding-top: 80px;
+      padding-top: 100px;
+      margin-right: 100px;
       background-color: azure;
       height: 500px;
   }
