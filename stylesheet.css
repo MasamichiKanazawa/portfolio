@@ -1,27 +1,41 @@
+html {
+  box-sizing: border-box;
+  }
+
 body {
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN";
   }
 
+  .clear {
+    clear: left;
+}  
 
 li  {
   list-style: none;
-  padding: 10px 50px;
+  padding: 10px 30px;
   font-size: 30px;
   float: left;
+  }
+
+li a {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
 }
 
-  .container {
+
+.container {
       width: 100%;
       margin: 0 auto;
   }
 
-  .top-wrapper {
+.top-wrapper {
     text-align: center;
     margin: 150px 0px 30px 0;
   }
 
-  .top-wrapper h1{
+.top-wrapper h1{
     font-size: 60px;
     padding-top: 150px;
     letter-spacing: 10px;
@@ -46,33 +60,37 @@ li  {
     padding-bottom: 80px;
     text-align: center;
     background-color: #CEE0F5;
+    display: flex;
+    justify-content: space-around;
   }
-
+  
   .prof-wrapper h1 {
     font-size: 37px;
     padding-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   .prof-icon {
-    padding-top: 150px;
-    padding-left: 50px;
+    padding-top: 50px;
     float: left;
+    width: 50%;
   }
   
+  .prof-photo {
+    text-align: center;
+    margin-top: 90px;
+    border-radius: 50% !important;
+  }
   .prof-text p {
       float: right;
       width: 50%;
-      margin-top: 100px;
-      margin-right: 50px;
-      padding: 20px 20px;
-      height: 500px;
+      margin-top: 50px;
       text-align: left;
       font-size: 25px;
   }
 
   .skill-wrapper {
-    height: 800px;
+    height: 600px;
     text-align: center;
   }
   
@@ -82,11 +100,39 @@ li  {
     padding-bottom: 100px;
   }
 
-  
-  
   .skill{
     float: left;
     width: 33%;
+    font-size: 20px;
+  }
+
+  #skill .rate {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    letter-spacing: .3em;
+  }
+  
+  #skill .rate:before {
+    color: #ddd;
+  } 
+
+  #skill .rate:after {
+    overflow: hidden;
+    white-space: nowrap;
+    color: #515151;
+  }
+
+  #skill .rate:before,#skill .rate:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    content: "★★★★★";
+  }
+
+  *, *:before, *:after {
+      box-sizing: border-box;
   }
 
   footer {
