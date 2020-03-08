@@ -7,7 +7,7 @@ body {
     font-family: "Hiragino Kaku Gothic ProN";
   }
 
-  .clear {
+.clear {
     clear: left;
 }  
 
@@ -23,7 +23,6 @@ li a {
   color: #333;
   text-decoration: none;
 }
-
 
 .container {
       width: 100%;
@@ -41,11 +40,11 @@ li a {
     letter-spacing: 10px;
   }
 
-  .twitter {
+.twitter {
     margin-right: 20px;
   }
 
-  header {
+header {
     height: 100px;  
     background-color: #4597F5;
     text-align: center;
@@ -54,93 +53,75 @@ li a {
     width: 100%;
   }
   
-  .prof-wrapper {
+.prof-wrapper {
     height: 845px;
     margin-top: 150px;
-    padding-bottom: 80px;
+    padding-bottom: 30px;
     text-align: center;
     background-color: #CEE0F5;
-    display: flex;
-    justify-content: space-around;
   }
   
-  .prof-wrapper h1 {
+.prof-wrapper h1 {
     font-size: 37px;
-    padding-top: 100px;
+    padding-top: 50px;
     margin-bottom: 30px;
   }
 
-  .prof-icon {
+.prof-icon {
     padding-top: 50px;
     float: left;
     width: 50%;
   }
   
-  .prof-photo {
+.prof-photo {
     text-align: center;
     margin-top: 90px;
-    border-radius: 50% !important;
+    border-radius: 45%;
   }
-  .prof-text p {
+
+.prof-text p {
       float: right;
-      width: 50%;
+      width: 45%;
       margin-top: 50px;
       text-align: left;
       font-size: 25px;
+      padding-right: 25px;
   }
 
-  .skill-wrapper {
+.skill-wrapper {
     height: 600px;
     text-align: center;
   }
-  
-  .skill-wrapper h1 {
+   
+.skill-wrapper h1 {
     font-size: 37px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
-  .skill{
+.skill {
     float: left;
     width: 33%;
     font-size: 20px;
   }
+.skill-icon {
+  margin-bottom: 10px;
+}
 
-  #skill .rate {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    letter-spacing: .3em;
-  }
-  
-  #skill .rate:before {
-    color: #ddd;
-  } 
+.skill-icon p {
+  font-size: 30px;
+}
 
-  #skill .rate:after {
-    overflow: hidden;
-    white-space: nowrap;
-    color: #515151;
-  }
+.fab {
+  font-size: 150px;
+} 
 
-  #skill .rate:before,#skill .rate:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: inline-block;
-    content: "★★★★★";
-  }
-
-  *, *:before, *:after {
-      box-sizing: border-box;
-  }
-
-  footer {
+footer {
     height: 166px;
     background-color: #4597F5;
     text-align: center;
   }
 
-  footer h1{
+footer h1{
     padding-top: 60px;
   }

@@ -1,0 +1,26 @@
+@media (max-width: 670px) {
+    .prof-icon {
+        width: 100%;
+    }
+    
+    .prof-text  p {
+        width: 90%;
+        float: left;
+        text-align: left; 
+        padding:0 15px;
+    }
+
+    .prof-wrapper {
+        height: 1100px
+    }
+
+    .skill{
+        width: 50%;
+      }
+
+      .skill-wrapper {
+        height: 900px;
+        text-align: center;
+      }
+
+}
