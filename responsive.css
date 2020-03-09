@@ -1,3 +1,29 @@
+@media (max-width: 1050px) {
+    .prof-icon {
+        width: 100%;
+    }
+    
+    .prof-text  p {
+        width: 90%;
+        float: left;
+        text-align: left; 
+        padding:0 15px;
+    }
+
+    .prof-wrapper {
+        height: 1000px
+    }
+    
+    .skill{
+        width: 50%;
+      }
+    
+      .skill-wrapper {
+        height: 900px;
+        text-align: center;
+      }
+}
+
 @media (max-width: 670px) {
     .prof-icon {
         width: 100%;
@@ -11,15 +37,15 @@
     }
 
     .prof-wrapper {
-        height: 1100px
+        height: 1000px
     }
 
     .skill{
-        width: 50%;
+        width: 100%;
       }
 
-      .skill-wrapper {
-        height: 900px;
+    .skill-wrapper {
+        height: 1200px;
         text-align: center;
       }
 

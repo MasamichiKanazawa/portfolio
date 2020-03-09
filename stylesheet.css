@@ -103,6 +103,8 @@ header {
     float: left;
     width: 33%;
     font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
   }
 .skill-icon {
   margin-bottom: 10px;
@@ -110,6 +112,12 @@ header {
 
 .skill-icon p {
   font-size: 30px;
+  text-align: center;
+}
+
+.skill-contents {
+  display: inline-block;
+  width: 90%;
 }
 
 .fab {
