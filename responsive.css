@@ -7,19 +7,13 @@
         width: 90%;
         float: left;
         text-align: left; 
-        padding:0 15px;
     }
 
-    .prof-wrapper {
-        height: 1000px
-    }
-    
     .skill{
         width: 50%;
       }
     
-      .skill-wrapper {
-        height: 900px;
+    .skill-wrapper {
         text-align: center;
       }
 }
@@ -33,11 +27,6 @@
         width: 90%;
         float: left;
         text-align: left; 
-        padding:0 15px;
-    }
-
-    .prof-wrapper {
-        height: 1000px
     }
 
     .skill{
@@ -45,7 +34,6 @@
       }
 
     .skill-wrapper {
-        height: 1200px;
         text-align: center;
       }
 

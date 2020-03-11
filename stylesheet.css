@@ -5,11 +5,20 @@ html {
 body {
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN";
-  }
+  } 
 
 .clear {
     clear: left;
 }  
+
+header {  
+  background-color: #4597F5;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+}
 
 li  {
   list-style: none;
@@ -27,109 +36,89 @@ li a {
 .container {
       width: 100%;
       margin: 0 auto;
-  }
+  } 
 
 .top-wrapper {
     text-align: center;
-    margin: 150px 0px 30px 0;
+    background-color: #db2626;
+    padding-top: 180px;
   }
 
 .top-wrapper h1{
     font-size: 60px;
-    padding-top: 150px;
     letter-spacing: 10px;
   }
 
 .twitter {
-    margin-right: 20px;
+    padding-right: 40px;
   }
 
-header {
-    height: 100px;  
-    background-color: #4597F5;
-    text-align: center;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-  }
-  
 .prof-wrapper {
-    height: 845px;
-    margin-top: 150px;
-    padding-bottom: 30px;
     text-align: center;
     background-color: #CEE0F5;
   }
   
-.prof-wrapper h1 {
+.prof-wrapper h2 {
     font-size: 37px;
     padding-top: 50px;
-    margin-bottom: 30px;
   }
 
 .prof-icon {
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     float: left;
     width: 50%;
   }
   
 .prof-photo {
-    text-align: center;
-    margin-top: 90px;
-    border-radius: 45%;
+    border-radius: 30%;
   }
 
-.prof-text p {
-      float: right;
+.prof-text {
       width: 45%;
       margin-top: 50px;
       text-align: left;
       font-size: 25px;
-      padding-right: 25px;
-  }
+      padding: 0 25px 0 25px;    
+      margin-bottom: 20px;
+  } 
 
 .skill-wrapper {
-    height: 600px;
+    padding-top: 30px;
     text-align: center;
-  }
-   
-.skill-wrapper h1 {
-    font-size: 37px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    background-color: #db2626;
   }
 
+.skill-wrapper h3 { 
+    font-size: 37px;
+    padding-bottom: 50px;
+  } 
+
 .skill {
-    float: left;
+    /* float: left; */
     width: 33%;
     font-size: 20px;
-    text-align: center;
-    margin-bottom: 10px;
   }
-.skill-icon {
-  margin-bottom: 10px;
-}
 
 .skill-icon p {
   font-size: 30px;
-  text-align: center;
 }
 
-.skill-contents {
+/* .skill-contents {
   display: inline-block;
   width: 90%;
-}
+} */
 
 .fab {
   font-size: 150px;
-} 
+}  
 
 footer {
-    height: 166px;
+    height: 60px;
     background-color: #4597F5;
     text-align: center;
   }
 
-footer h1{
-    padding-top: 60px;
-  }
+footer p {
+    font-size: 40px;
+  } 
