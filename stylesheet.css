@@ -40,7 +40,7 @@ li a {
 
 .top-wrapper {
     text-align: center;
-    background-color: #db2626;
+    /* background-color: #db2626; */
     padding-top: 180px;
   }
 
@@ -59,13 +59,14 @@ li a {
   }
   
 .prof-wrapper h2 {
-    font-size: 37px;
-    padding-top: 50px;
+    font-size: 50px;
+    padding-top: 100px;
   }
 
 .prof-main {
   display: flex;
   }
+
 .prof-icon {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -79,21 +80,27 @@ li a {
 
 .prof-text {
       width: 45%;
-      margin-top: 50px;
+      margin-top: 30px;
       text-align: left;
       font-size: 25px;
       padding: 0 25px 0 25px;    
-      margin-bottom: 20px;
+      margin-bottom: 100px;
   } 
+
+.contact {
+  margin-bottom: 50px;
+}
+
 
 .skill-wrapper {
     padding-top: 30px;
     text-align: center;
-    background-color: #db2626;
+    /* background-color: #db2626; */
   }
 
 .skill-wrapper h3 { 
-    font-size: 37px;
+    font-size: 50px;
+    margin-top: 100px;
     padding-bottom: 50px;
   } 
 
@@ -103,16 +110,20 @@ li a {
 
 .skill {
     width: 33%;
-    font-size: 20px;
+    font-size: 30px;
   }
 
 .skill-icon p {
   font-size: 30px;
+  margin-bottom: 10px;
 }
 
 .skill-contents {
   display: inline-block;
   width: 90%;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 .fab {

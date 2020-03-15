@@ -1,16 +1,25 @@
 @media (max-width: 1050px) {
+    .prof-main {
+        display: flex;
+        flex-wrap: wrap;
+        }
+    
+    
     .prof-icon {
         width: 100%;
     }
     
-    .prof-text  p {
+    .prof-text {
         width: 90%;
-        float: left;
-        text-align: left; 
+        text-align: left;    
     }
 
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+    }
     .skill{
-        width: 50%;
+        width: 100%;
       }
     
     .skill-wrapper {
