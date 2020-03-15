@@ -7,9 +7,9 @@ body {
     font-family: "Hiragino Kaku Gothic ProN";
   } 
 
-.clear {
+/* .clear {
     clear: left;
-}  
+}   */
 
 header {  
   background-color: #4597F5;
@@ -63,6 +63,9 @@ li a {
     padding-top: 50px;
   }
 
+.prof-main {
+  display: flex;
+  }
 .prof-icon {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -94,8 +97,11 @@ li a {
     padding-bottom: 50px;
   } 
 
+.skills {
+  display: flex;
+}
+
 .skill {
-    /* float: left; */
     width: 33%;
     font-size: 20px;
   }
@@ -104,10 +110,10 @@ li a {
   font-size: 30px;
 }
 
-/* .skill-contents {
+.skill-contents {
   display: inline-block;
   width: 90%;
-} */
+}
 
 .fab {
   font-size: 150px;
