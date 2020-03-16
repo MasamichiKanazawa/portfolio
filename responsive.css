@@ -1,5 +1,12 @@
 @media (max-width: 1050px) {
-    .prof-main {
+  header {  
+    height: 150px;
+  }  
+  
+  li  {
+    font-size: 50px;
+    }
+   .prof-main {
         display: flex;
         flex-wrap: wrap;
         }
@@ -11,7 +18,8 @@
     
     .prof-text {
         width: 90%;
-        text-align: left;    
+        text-align: left;  
+        font-size: 50px;  
     }
 
     .skills {
@@ -24,6 +32,26 @@
     
     .skill-wrapper {
         text-align: center;
+      }
+
+    .skill-icon p {
+        font-size: 50px;
+      }
+
+    .skill-contents {
+        font-size: 40px;
+      }
+
+    .fab {
+        font-size: 250px;
+      }  
+
+      footer p {
+        font-size: 50px;
+      } 
+
+      footer {
+        height: 100px;
       }
 }
 
