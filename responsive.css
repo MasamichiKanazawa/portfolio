@@ -6,12 +6,26 @@
   li  {
     font-size: 50px;
     }
-   .prof-main {
+   
+   .top-wrapper h1{
+      font-size: 90px;
+      letter-spacing: 10px;
+    }
+  
+    .twitter {
+      width: 90px;
+      height: 90px;
+    }
+
+    .prof-main {
         display: flex;
         flex-wrap: wrap;
         }
     
-    
+    .prof-wrapper h2 {
+        font-size: 80px;
+    }
+
     .prof-icon {
         width: 100%;
     }
@@ -19,13 +33,18 @@
     .prof-text {
         width: 90%;
         text-align: left;  
-        font-size: 50px;  
+        font-size: 30px;  
+    }
+
+    .skill-wrapper h3 {
+      font-size: 80px;
     }
 
     .skills {
         display: flex;
         flex-wrap: wrap;
     }
+   
     .skill{
         width: 100%;
       }
@@ -39,7 +58,7 @@
       }
 
     .skill-contents {
-        font-size: 40px;
+        font-size: 50px;
       }
 
     .fab {
@@ -73,5 +92,7 @@
     .skill-wrapper {
         text-align: center;
       }
+    
+     
 
 }

@@ -41,7 +41,8 @@ li a {
 .top-wrapper {
     text-align: center;
     /* background-color: #db2626; */
-    padding-top: 180px;
+    padding-top: 250px;
+    padding-bottom: 300px;
   }
 
 .top-wrapper h1{
@@ -52,6 +53,10 @@ li a {
 .twitter {
     padding-right: 40px;
   }
+
+/* .contact {
+  margin-bottom: 150px;
+} */
 
 .prof-wrapper {
     text-align: center;
@@ -87,13 +92,8 @@ li a {
       margin-bottom: 100px;
   } 
 
-.contact {
-  margin-bottom: 50px;
-}
-
-
 .skill-wrapper {
-    padding-top: 30px;
+    padding-top: 150px;
     text-align: center;
     /* background-color: #db2626; */
   }
@@ -139,3 +139,18 @@ footer {
 footer p {
     font-size: 40px;
   } 
+
+  #TOP {
+    margin-top: -150px;
+    padding-top: 150px;
+  }
+
+  #PROFILE {
+    margin-top: -150px;
+    padding-top: 150px;
+  }
+  
+  #SKILL {
+    margin-top: -150px;
+    padding-top: 150px;
+  }
