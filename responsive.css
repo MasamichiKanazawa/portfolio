@@ -1,98 +1,96 @@
 @media (max-width: 1050px) {
-  header {  
+  header {
     height: 150px;
-  }  
-  
-  li  {
+  }
+
+  li {
     font-size: 50px;
-    }
-   
-   .top-wrapper h1{
-      font-size: 90px;
-      letter-spacing: 10px;
-    }
-  
-    .twitter {
-      width: 90px;
-      height: 90px;
-    }
+  }
 
-    .prof-main {
-        display: flex;
-        flex-wrap: wrap;
-        }
-    
-    .prof-wrapper h2 {
-        font-size: 80px;
-    }
+  .top-wrapper h1 {
+    font-size: 90px;
+    letter-spacing: 10px;
+  }
 
-    .prof-icon {
-        width: 100%;
-    }
-    
-    .prof-text {
-        width: 90%;
-        text-align: left;  
-        font-size: 30px;  
-    }
+  .twitter {
+    width: 90px;
+    height: 90px;
+  }
 
-    .skill-wrapper h3 {
-      font-size: 80px;
-    }
+  .prof-main {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    .skills {
-        display: flex;
-        flex-wrap: wrap;
-    }
-   
-    .skill{
-        width: 100%;
-      }
-    
-    .skill-wrapper {
-        text-align: center;
-      }
+  .prof-wrapper h2 {
+    font-size: 80px;
+  }
 
-    .skill-icon p {
-        font-size: 50px;
-      }
+  .prof-icon {
+    width: 100%;
+  }
 
-    .skill-contents {
-        font-size: 50px;
-      }
+  .prof-text {
+    width: 90%;
+    text-align: left;
+    font-size: 30px;
+  }
 
-    .fab {
-        font-size: 250px;
-      }  
+  .skill-wrapper h3 {
+    font-size: 80px;
+  }
 
-      footer p {
-        font-size: 50px;
-      } 
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-      footer {
-        height: 100px;
-      }
+  .skill {
+    width: 100%;
+  }
+
+  .skill-wrapper {
+    text-align: center;
+  }
+
+  .skill-icon p {
+    font-size: 50px;
+  }
+
+  .skill-contents {
+    font-size: 50px;
+  }
+
+  .fab {
+    font-size: 250px;
+  }
+
+  footer p {
+    font-size: 40px;
+    padding-top: 15px;
+  }
+
+  footer {
+    height: 100px;
+  }
 }
 
 @media (max-width: 670px) {
-    .prof-icon {
-        width: 100%;
-    }
-    
-    .prof-text  p {
-        width: 90%;
-        float: left;
-        text-align: left; 
-    }
+  .prof-icon {
+    width: 100%;
+  }
 
-    .skill{
-        width: 100%;
-      }
+  .prof-text p {
+    width: 90%;
+    float: left;
+    text-align: left;
+  }
 
-    .skill-wrapper {
-        text-align: center;
-      }
-    
-     
+  .skill {
+    width: 100%;
+  }
 
+  .skill-wrapper {
+    text-align: center;
+  }
 }
